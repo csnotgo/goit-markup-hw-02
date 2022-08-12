@@ -20,6 +20,14 @@ body {
     color: var(--primary-text-color);
 }
 
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 1170px;
+    outline: 2px solid tomato;
+}
+
 /* логотип */
 
 .logo {
@@ -40,6 +48,10 @@ ul {
 }
 
 /* навігація */
+
+.nav-list{
+
+}
 
 .nav-link {
     font-weight: 500;
@@ -78,6 +90,7 @@ ul {
 .hero {
     background-color: #2F303A;
     text-transform:uppercase;
+    text-align: center;
 }
 
  .hero-title {
